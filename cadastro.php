@@ -11,10 +11,11 @@
         <h1>Resultado do formulário</h1>
     </header>
     <main>
-        <?php 
-            $nome = $_GET["nome"] ?? "Sem nome";
-            $sobrenome = $_GET["sobrenome"] ?? "Desconhecido";
-            echo"É um prazer ter você aqui $nome $sobrenome !";
+    <?php 
+            $n = $_GET["nome"];
+            $s = $_GET["sobrenome"];
+
+            echo"É um prazer ter você aqui $n $s !";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>    

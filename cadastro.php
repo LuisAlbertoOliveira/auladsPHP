@@ -12,9 +12,10 @@
     </header>
     <main>
     <?php 
-            $n = $_GET["nome"];
-            $s = $_GET["sobrenome"];
+            //$n = $_GET["nome"];
+            //$s = $_GET["sobrenome"];
 
+            $teste = $_SERVER[""];
             echo"É um prazer ter você aqui $n $s !";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>

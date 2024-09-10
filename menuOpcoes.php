@@ -26,7 +26,7 @@
 
 <?php
 // Processamento PHP
- $opcao = $_POST['opcao'];
+ $opcao = $_POST['opcao'] ?? 1 ;
 
     switch ($opcao) {
         case 1:

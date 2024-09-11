@@ -14,7 +14,7 @@
         </select><br><br>
 
         <label for="altura">Altura (em metros):</label><br>
-        <input type="number" step="0.01" id="altura" name="altura" required><br><br>
+        <input type="number" step="0.1" id="altura" name="altura" required><br><br>
 
         <input type="submit" value="Calcular Peso Ideal">
     </form>
